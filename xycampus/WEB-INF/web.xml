@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.user.web.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CidServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.user.web.servlet.CidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegistVerifyServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.user.web.servlet.RegistVerifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginVerifyServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.user.web.servlet.LoginVerifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoseServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.lose.web.servlet.LoseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.find.web.servlet.FindServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.activity.web.servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClubServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.club.web.servlet.ClubServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ActivityServlet</servlet-name>
+    <servlet-class>cn.my.xycampus.activity.web.servlet.ActivityServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CidServlet</servlet-name>
+    <url-pattern>/CidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistVerifyServlet</servlet-name>
+    <url-pattern>/RegistVerifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginVerifyServlet</servlet-name>
+    <url-pattern>/LoginVerifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoseServlet</servlet-name>
+    <url-pattern>/LoseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindServlet</servlet-name>
+    <url-pattern>/FindServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClubServlet</servlet-name>
+    <url-pattern>/ClubServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActivityServlet</servlet-name>
+    <url-pattern>/ActivityServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
